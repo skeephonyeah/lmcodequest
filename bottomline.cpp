@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void getOutput();
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -21,12 +23,12 @@ void getOutput(){
     cin >> x >> y;
 
     if(x>y){
-        cout << "Cassowary Craft sold " << (x-y) << " more aircraft";
+        cout << "Cassowary Craft sold " << (x-y) << " more aircraft" << "\n";
         }
     else if(y>x){
-        cout << "Lead Balloons Ltd sold " << (y-x) << " more aircraft";
+        cout << "Lead Balloons Ltd sold " << (y-x) << " more aircraft" << "\n";
     }
     else{
-        cout << "Cassowary Craft and Lead Balloons sold the same number of aircraft";
+        cout << "Cassowary Craft and Lead Balloons sold the same number of aircraft" << "\n";
     }
 }
