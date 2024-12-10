@@ -19,7 +19,7 @@ int main() {
 }
 
 void getOutput() {
-       int x;
+       double x;
        cin >> x;
-       cout << 2*(M_PI)*(x)+40075 << "\n"; 
+       cout << fixed << setprecision(1) << (2)*(M_PI)*(x)+40075 << "\n"; 
 }
