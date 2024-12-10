@@ -32,5 +32,5 @@ void getTime(){
     h = t%24;
     t /= 24;
     d = t;
-    cout << "Time to Mars: " << d << "days, " << h << "hours, " << m << "minutes, " << s << " seconds" << "\n";
+    cout << "Time to Mars: " << d << " days, " << h << " hours, " << m << " minutes, " << s << " seconds" << "\n";
 }
