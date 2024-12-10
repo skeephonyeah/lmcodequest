@@ -23,14 +23,14 @@ void getTime(){
 
     x *= 1000000;
     y /= 3600;
-    int t, d, h, m, s;
+    int t, days, hours, minutes, seconds;
     t = round(x/y);
-    s = t%60;
+    seconds = t%60;
     t /= 60;
-    m = t%60;
+    minutes = t%60;
     t /= 60;
-    h = t%24;
+    hours = t%24;
     t /= 24;
-    d = t;
-    cout << "Time to Mars: " << d << " days, " << h << " hours, " << m << " minutes, " << s << " seconds" << "\n";
+    days = t;
+    cout << "Time to Mars: " << days << " days, " << hours << " hours, " << minutes << " minutes, " << seconds << " seconds" << "\n";
 }
