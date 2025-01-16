@@ -29,6 +29,6 @@ void getOutput(){
         cout << "Lead Balloons Ltd sold " << (y-x) << " more aircraft" << "\n";
     }
     else{
-        cout << "Cassowary Craft and Lead Balloons sold the same number of aircraft" << "\n";
+        cout << "Cassowary Craft and Lead Balloons sold the same number of aircraft";
     }
 }
